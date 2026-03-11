@@ -5,7 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Garrett Comer - Grade 11</title>
 <link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="style.css"> 
 </head>
+
+<body>
+<a href="index.html" class="home-button">Home</a>
+<header id="header">
+
 <!-- Header including Garrett's name and high school -->
 <a href="index.html" class="home-button">Home</a>
 <header id="header">
@@ -17,6 +23,17 @@
         <a href="grade11.html" class="active">Grade 11</a>
     </nav>
 </header>
+
+<!-- Filter Bar (UI only - need to add Javascript later)-->
+
+<section class="filter-bar">
+    <p>Sort by:</p>
+
+    <button id="sort-date" class="filter-btn">Date</button>
+    <button id="sort-time" class="filter-btn">Time</button>
+    <button id="sort-place" class="filter-btn">Place</button>
+</section>
+
 <!-- Main content including race cards -->
 <main>
         <article class="card">
@@ -144,4 +161,8 @@
     <p>Generated from <a href="https://docs.google.com/spreadsheets/d/1E5z5sSROgrBVfQeoR7W3uB8sPbZ6pSRWLBxRl7_Ggk0/edit?gid=156980597#gid=156980597" class="text-link">spreadsheet</a>.</p>
     <p><a href="#header">Back to top</a></p>
 </footer>
+
+<script src="script.js"></script>
+</header>
+</body>
 </html>
